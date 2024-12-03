@@ -1,3 +1,10 @@
+:root {
+    --color-button: #F53838;
+    --color-text:#4F5665;
+    --color-title:#0B132A;
+}
+
+
 @font-face {
     font-weight: 700;
     font-family: Rubik;
@@ -8,3 +15,43 @@
     font-family: Rubik;
     src: url('../fonts/Rubik-Regular.ttf');
 }
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+button, a {
+    text-decoration: none;
+    border: 0;
+    background: none;
+    color: black;
+}
+body {
+    background-color: rgba(255, 255, 255, 0.00);
+
+}
+h1 {
+    font-family: Rubik;
+    font-weight: 400;
+}
+span {
+    font-family: Rubik;
+    font-weight: 400;
+}
+main {
+    width: 676.549px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
