@@ -29,24 +29,82 @@ button, a {
     border: 0;
     background: none;
     color: black;
+    font-family: Rubik;
+
 }
 body {
     background-color: rgba(255, 255, 255, 0.00);
-
 }
 h1 {
     font-family: Rubik;
     font-weight: 400;
+    font-size: 23.491px;
+    color:  var(--color-title);
 }
-span {
+span, p {
     font-family: Rubik;
     font-weight: 400;
+    font-size: 7.517px;
+    color: var(--color-text);
 }
 main {
-    width: 676.549px;
-    margin: 0 auto;
+    width: 1440px;
+    padding: 50px 150px;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
+    .logo{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        span {
+            color: #0B132A;
+            font-size: 20px;
+        }
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        .nav_link {
+            color: var(--color-text);
+            font-size: 16px;
+        }
+    }
+
+    .register {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+        .button_sign_in {
+            font-size: 16px;
+        }
+        .button_sign_up {
+            font-size: 16px;
+            color: #F53838;
+            width: 150px;
+            height: 45px;
+            border-radius: 50px;
+            border: 1px solid #F53855;
+        }
+    } 
+}
+.title_text {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, ifr);
+    gap: 40px;
+    .text {
+        grid-column: span 1;
+    }
+}
 
 
 
