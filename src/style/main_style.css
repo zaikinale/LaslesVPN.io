@@ -102,11 +102,35 @@ header .register .button_sign_up {
 .title_text {
   margin-top: 90px;
   display: grid;
-  grid-template-columns: repeat(2, ifr);
+  grid-template-columns: 555px 1fr;
   gap: 40px;
 }
 .title_text .text {
-  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.title_text .text h1 {
+  font-size: 50px;
+}
+.title_text .text h1 a {
+  font-weight: 700;
+}
+.title_text .text p {
+  font-size: 16px;
+}
+.title_text .text button {
+  background-color: #F53838;
+  color: white;
+  font-size: 16px;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.title_text img {
+  display: block;
 }
 
 /*# sourceMappingURL=main_style.css.map */
