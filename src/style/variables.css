@@ -1,0 +1,21 @@
+:root {
+  --color-button: #F53838;
+  --color-text:#4F5665;
+  --color-title:#0B132A;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Bold.ttf");
+}
+@font-face {
+  font-weight: 400;
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Regular.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Medium.ttf");
+}

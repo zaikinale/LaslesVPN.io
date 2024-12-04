@@ -1,0 +1,16 @@
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+button, a {
+  text-decoration: none;
+  border: 0;
+  background: none;
+  color: black;
+  font-family: Rubik;
+}
