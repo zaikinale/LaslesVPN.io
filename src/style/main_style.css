@@ -35,12 +35,15 @@ button, a {
 
 body {
   background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h1 {
+h1, h2 {
   font-family: Rubik;
   font-weight: 400;
-  font-size: 23.491px;
+  font-size: 25px;
   color: var(--color-title);
 }
 
@@ -131,6 +134,37 @@ header .register .button_sign_up {
 }
 .title_text img {
   display: block;
+}
+
+.advantages {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0px 40px 0px;
+}
+.advantages .advantages_card {
+  box-sizing: content-box;
+  padding: 30px 130px 30px 91px;
+  display: flex;
+  flex-direction: row;
+  gap: 36.5px;
+  border-right: 2px solid var(--color-text);
+  border-radius: 1px;
+}
+.advantages .advantages_card .advantages_card_description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.advantages .advantages_card .advantages_card_description h2 {
+  font-size: 25px;
+}
+.advantages .advantages_card .advantages_card_description span {
+  font-size: 20px;
+}
+.advantages .advantages_card:last-child {
+  border: none;
 }
 
 /*# sourceMappingURL=main_style.css.map */
