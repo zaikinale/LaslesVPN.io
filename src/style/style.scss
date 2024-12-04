@@ -3,8 +3,6 @@
     --color-text:#4F5665;
     --color-title:#0B132A;
 }
-
-
 @font-face {
     font-weight: 700;
     font-family: Rubik;
@@ -14,6 +12,11 @@
     font-weight: 400;
     font-family: Rubik;
     src: url('../fonts/Rubik-Regular.ttf');
+}
+@font-face {
+    font-weight: 500;
+    font-family: Rubik;
+    src: url('../fonts/Rubik-Medium.ttf');
 }
 body, h1, h2, h3, h4, p,
 figure, blockquote, dl, dd {
@@ -114,6 +117,7 @@ header {
 
         h1 {
             font-size: 50px;
+            font-weight: 500;
             a {
                 font-weight: 700;
             }
@@ -190,7 +194,7 @@ header {
         justify-content: center;
         h1 {
             font-size: 35px;
-            font-weight: 700;
+            font-weight: 500;
         }
         span {
             font-size: 16px;
@@ -224,7 +228,7 @@ header {
         margin-bottom: 60px;
         h1 {
             font-size: 35px;
-            font-weight: 700;
+            font-weight: 500;
         }
         span {
             text-align: center;
@@ -278,9 +282,19 @@ header {
                 flex-direction: column;
                 gap: 20px;
                 align-items: center;
-                span {
-                    font-size: 25px;
-                    font-weight: 700;
+                .price_on_month {
+                    display: flex;
+                    flex-direction: row;
+                    span:first-child {
+                        color: var(--color-title);
+                        font-size: 25px;
+                        font-weight: 500;
+                    }
+                    span:last-child {
+                        color: var(--color-text);
+                        font-size: 25px;
+                        font-weight: 500;
+                    }
                 }
                 button {
                     color: var(--color-button);
@@ -290,9 +304,14 @@ header {
                     padding: 13px 60px ;
                 }
             }
-
-
-            
+        }
+        .service_package:last-child {
+            border-color: var(--color-button);
+            .price button {
+                background-color: #F53838;
+                color: white;
+                box-shadow: 0px 28px 50px -8px rgba(245, 56, 56, 0.3);
+            }
         }
     }
 
