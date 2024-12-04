@@ -314,15 +314,178 @@ header {
             }
         }
     }
+}
+.net {
+    width: 1440px;
+    padding: 100px 150px 50px 150px;
+    background-color: rgba(255, 255, 255, 0.00);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    .net_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        h1 {
+            font-size: 35px;
+            font-weight: 500;
+        }
+        span {
+            text-align: center;
+            width: 555px;
+            font-size: 16px;
+            a {
+                font-weight: 500;
+            }
+        }
+    }
+    img {
+        margin-top: 110px;
+    }
+    .card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            margin: 0;
+        }
 
+    }
+}
+.reviews {
+    position: relative;
+    width: 1440px;
+    padding: 0 150px 300px 150px;
+    background-color: rgba(255, 255, 255, 0.00);
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    .reviews_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        h1 {
+            font-size: 35px;
+            font-weight: 500;
+            width: 450px;
+            text-align: center;
+        }
+        span {
+            text-align: center;
+            width: 555px;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+    .reviews_cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 230px;
+        width: 100%;
+        .review_card {
+            width: 360px;
+            height: 230px;
+            border: 2px solid var(--color-text);
+            border-radius: 10px;
+            padding: 30px;
+            .person {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                .person_info {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                    align-items: center;
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        h2 {
+                            font-weight: 500;
+                            font-size: 18px;
+                        }
+                        span {
+                            font-size: 14px;
+                            color: var(--color-text);
+                        }
+                    }
+                }
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                }
+            }
+            span {
+                color: var(--color-title);
+                font-size: 16px;
+            }
+        }
+        .review_card:first-child {
+            border-color: var(--color-button);
+        }
+    }
 
+    // <div class="special_offer">
+    //         <div class="offer_description">
+    //             <h1>Subscribe Now for Get Special Features!</h1>
+    //             <span>Let's subscribe with us and find the fun.</span>
+    //         </div>
+    //         <button>Subscribe Now</button>
+    //     </div>
 
+    .special_offer {
+        background-color: #FFF;
+        box-shadow: 0px 28px 50px -8px rgba(13, 16, 37, 0.3);
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 70px;
+        position: absolute;
+        bottom: -125px;
 
+        .offer_description {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h1 {
+                font-size: 35px;
+                font-weight: 500;
+                width: 370px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
 
-
+        button {
+            background-color: #F53838;
+            width: 250px;
+            color: white;
+            font-size: 16px;
+            width: 250px;
+            height: 60px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0px 28px 50px -8px rgba(245, 56, 56, 0.3);
+        }
+    }
 
 }
-
 
 
 
