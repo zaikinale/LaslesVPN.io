@@ -74,12 +74,13 @@ header {
 header .logo {
   display: flex;
   flex-direction: row;
-  gap: 10px;
   align-items: center;
+  gap: 10px;
 }
 header .logo span {
   color: #0B132A;
   font-size: 20px;
+  font-weight: 700;
 }
 header nav {
   display: flex;
@@ -504,6 +505,7 @@ footer .contacts .about .logo {
 footer .contacts .about .logo span {
   color: #0B132A;
   font-size: 20px;
+  font-weight: 700;
 }
 footer .contacts .about span {
   font-size: 16px;
