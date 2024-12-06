@@ -10,7 +10,7 @@ body {
 h1, h2 {
   font-family: Rubik;
   font-weight: 400;
-  font-size: 25px;
+  font-size: var(--subtitle_fs);
   color: var(--color-title);
 }
 
@@ -52,7 +52,7 @@ header nav {
 }
 header nav .nav_link {
   color: var(--color-text);
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 header .register {
   display: flex;
@@ -60,10 +60,10 @@ header .register {
   gap: 30px;
 }
 header .register .button_sign_in {
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 header .register .button_sign_up {
-  font-size: 16px;
+  font-size: var(--button_fs);
   color: #F53838;
   width: 150px;
   height: 45px;
@@ -91,12 +91,12 @@ header .register .button_sign_up {
   font-weight: 700;
 }
 .title_text .text p {
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 .title_text .text button {
   background-color: #F53838;
   color: white;
-  font-size: 16px;
+  font-size: var(--button_fs);
   width: 250px;
   height: 60px;
   border-radius: 10px;
@@ -133,7 +133,7 @@ header .register .button_sign_up {
   gap: 5px;
 }
 .advantages_card_description h2 {
-  font-size: 25px;
+  font-size: var(--subtitle_fs);
 }
 .advantages_card_description span {
   font-size: 20px;
@@ -158,11 +158,11 @@ header .register .button_sign_up {
   justify-content: center;
 }
 .offer_text h2 {
-  font-size: 35px;
+  font-size: var(--title_fs);
   font-weight: 500;
 }
 .offer_text span {
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 .offer_text .we_offer {
   display: flex;
@@ -192,13 +192,13 @@ header .register .button_sign_up {
   margin-bottom: 60px;
 }
 .service_packages .service_packages_text h2 {
-  font-size: 35px;
+  font-size: var(--title_fs);
   font-weight: 500;
 }
 .service_packages .service_packages_text span {
   text-align: center;
   width: 555px;
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 .service_packages .service_packages_container {
   width: 100%;
@@ -252,18 +252,18 @@ header .register .button_sign_up {
 }
 .service_packages .service_packages_container .service_package .price_on_month span:first-child {
   color: var(--color-title);
-  font-size: 25px;
+  font-size: var(--subtitle_fs);
   font-weight: 500;
 }
 .service_packages .service_packages_container .service_package .price_on_month span:last-child {
   color: var(--color-text);
-  font-size: 25px;
+  font-size: var(--subtitle_fs);
   font-weight: 500;
 }
 .service_packages .service_packages_container .service_package .price button {
   color: var(--color-button);
   border: 2px solid var(--color-button);
-  font-size: 16px;
+  font-size: var(--button_fs);
   border-radius: 50px;
   padding: 13px 60px;
 }
@@ -292,13 +292,13 @@ header .register .button_sign_up {
   gap: 20px;
 }
 .net_text h2 {
-  font-size: 35px;
+  font-size: var(--title_fs);
   font-weight: 500;
 }
 .net_text span {
   text-align: center;
   width: 555px;
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 .net_text span a {
   font-weight: 500;
@@ -334,7 +334,7 @@ header .register .button_sign_up {
   gap: 20px;
 }
 .reviews_text h2 {
-  font-size: 35px;
+  font-size: var(--title_fs);
   font-weight: 500;
   width: 450px;
   text-align: center;
@@ -342,7 +342,7 @@ header .register .button_sign_up {
 .reviews_text span {
   text-align: center;
   width: 555px;
-  font-size: 16px;
+  font-size: var(--button_fs);
   text-align: center;
 }
 .reviews .reviews_cards {
@@ -393,7 +393,7 @@ header .register .button_sign_up {
 }
 .reviews .reviews_cards .review_card span {
   color: var(--color-title);
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 .reviews .reviews_cards .review_card:first-child {
   border-color: var(--color-button);
@@ -422,13 +422,12 @@ header .register .button_sign_up {
   width: 370px;
 }
 .reviews .special_offer .offer_description span {
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 .reviews .special_offer button {
   background-color: #F53838;
-  width: 250px;
   color: white;
-  font-size: 16px;
+  font-size: var(--button_fs);
   width: 250px;
   height: 60px;
   border-radius: 10px;
@@ -470,14 +469,14 @@ footer .contacts .about .logo span {
   font-weight: 700;
 }
 footer .contacts .about span {
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 footer .contacts .about span a {
   color: var(--color-text);
   font-weight: 500;
 }
 footer .contacts .social_media span {
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 footer .contacts .social_media span a {
   color: var(--color-text);
@@ -500,7 +499,7 @@ footer .cards .card .links {
 }
 footer .cards .card .links a {
   color: var(--color-text);
-  font-size: 16px;
+  font-size: var(--button_fs);
 }
 
 /*# sourceMappingURL=main_style.css.map */

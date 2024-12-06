@@ -2,6 +2,9 @@
   --color-button: #F53838;
   --color-text:#4F5665;
   --color-title:#0B132A;
+  --button_fs: 16px;
+  --title_fs: 35px;
+  --subtitle_fs: 25px;
 }
 
 @font-face {
@@ -19,3 +22,4 @@
   font-family: Rubik;
   src: url("../fonts/Rubik-Medium.ttf");
 }
+
