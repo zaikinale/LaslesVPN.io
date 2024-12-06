@@ -355,7 +355,6 @@ header .register .button_sign_up {
 }
 .reviews .reviews_cards .review_card {
   width: 360px;
-  height: 230px;
   border: 2px solid var(--color-text);
   border-radius: 10px;
   padding: 30px;
@@ -417,7 +416,7 @@ header .register .button_sign_up {
   gap: 20px;
 }
 .reviews .special_offer .offer_description h2 {
-  font-size: 35px;
+  font-size: var(--title_fs);
   font-weight: 500;
   width: 370px;
 }

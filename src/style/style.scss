@@ -11,6 +11,16 @@
     display: flex;
     flex-direction: row;
 }
+@mixin button_type_one {
+    background-color: #F53838;
+    color: white;
+    font-size: var(--button_fs);
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
+}
 body {
     background-color: rgba(255, 255, 255, 0.00);
     @include content-colums;
@@ -92,14 +102,7 @@ header {
             font-size: var(--button_fs);
         }
         button {
-            background-color: #F53838;
-            color: white;
-            font-size: var(--button_fs);
-            width: 250px;
-            height: 60px;
-            border-radius: 10px;
-            margin-top: 30px;
-            box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
+            @include button_type_one;
         }
     }
     img {
@@ -328,7 +331,6 @@ header {
         width: 100%;
         .review_card {
             width: 360px;
-            height: 230px;
             border: 2px solid var(--color-text);
             border-radius: 10px;
             padding: 30px;
@@ -383,7 +385,7 @@ header {
             @include content-colums;
             gap: 20px;
             h2 {
-                font-size: 35px;
+                font-size: var(--title_fs);
                 font-weight: 500;
                 width: 370px;
             }
@@ -392,14 +394,7 @@ header {
             }
         }
         button {
-            background-color: #F53838;
-            color: white;
-            font-size: var(--button_fs);
-            width: 250px;
-            height: 60px;
-            border-radius: 10px;
-            margin-top: 30px;
-            box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
+            @include button_type_one;
         }
     }
 }
