@@ -17,7 +17,6 @@ h1, h2 {
 span, p {
   font-family: Rubik;
   font-weight: 400;
-  font-size: 7.517px;
   color: var(--color-text);
 }
 
@@ -101,6 +100,8 @@ header .register .button_sign_up {
   height: 60px;
   border-radius: 10px;
   margin-top: 30px;
+  -webkit-box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
+  -moz-box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
   box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
 }
 .title_text img {
@@ -116,6 +117,8 @@ header .register .button_sign_up {
   flex-direction: row;
   justify-content: space-between;
   padding: 40px 0 40px 0;
+  -webkit-box-shadow: 0 28px 50px -8px rgba(13, 16, 37, 0.3);
+  -moz-box-shadow: 0 28px 50px -8px rgba(13, 16, 37, 0.3);
   box-shadow: 0 28px 50px -8px rgba(13, 16, 37, 0.3);
 }
 .advantages_card {
@@ -273,6 +276,8 @@ header .register .button_sign_up {
 .service_packages .service_packages_container .service_package:last-child .price button {
   background-color: #F53838;
   color: white;
+  -webkit-box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
+  -moz-box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
   box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
 }
 
@@ -366,22 +371,22 @@ header .register .button_sign_up {
   align-items: center;
   margin-bottom: 20px;
 }
-.reviews .reviews_cards .review_card .person .person_info {
+.reviews .reviews_cards .review_card .person_info {
   display: flex;
   flex-direction: row;
   gap: 20px;
   align-items: center;
 }
-.reviews .reviews_cards .review_card .person .person_info div {
+.reviews .reviews_cards .review_card .person_info div {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.reviews .reviews_cards .review_card .person .person_info div h2 {
+.reviews .reviews_cards .review_card .person_info div h2 {
   font-weight: 500;
   font-size: 18px;
 }
-.reviews .reviews_cards .review_card .person .person_info div span {
+.reviews .reviews_cards .review_card .person_info div span {
   font-size: 14px;
   color: var(--color-text);
 }
@@ -399,6 +404,8 @@ header .register .button_sign_up {
 }
 .reviews .special_offer {
   background-color: #FFF;
+  -webkit-box-shadow: 0 28px 50px -8px rgba(13, 16, 37, 0.3);
+  -moz-box-shadow: 0 28px 50px -8px rgba(13, 16, 37, 0.3);
   box-shadow: 0 28px 50px -8px rgba(13, 16, 37, 0.3);
   border-radius: 10px;
   width: 1140px;
@@ -431,6 +438,8 @@ header .register .button_sign_up {
   height: 60px;
   border-radius: 10px;
   margin-top: 30px;
+  -webkit-box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
+  -moz-box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
   box-shadow: 0 28px 50px -8px rgba(245, 56, 56, 0.3);
 }
 
