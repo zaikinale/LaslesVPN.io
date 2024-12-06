@@ -1,5 +1,5 @@
-@import url("./normalizer");
-@import url("./variables");
+@import "normalizer.css";
+@import "variables.css";
 body {
   background-color: rgba(255, 255, 255, 0);
   display: flex;
